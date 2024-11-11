@@ -1,2 +1,2 @@
-# Lyapunov-exponents-with-the-adjoint-method
-Code associated to the paper
+# Enclosure-of-Lyapunov-exponents
+Code associated to the paper "Rigorous enclosure of Lyapunov exponents"

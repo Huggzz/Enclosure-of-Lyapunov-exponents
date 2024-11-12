@@ -5,7 +5,7 @@ This repository contains the Julia code asoociated with the paper ["Rigorous enc
 You will need to install the relevant packages from the julia REPL with the command
 
 ```julia
-    using Pkg; Pkg.add(" BandedMatrices, BlockArrays, BlockBandedMatrices, Combinatorics, IntervalArithmetic, LinearAlgebra, LaTeXStrings, Plots, Polynomials, PolynomialRoots, Serialization, SparseArrays")
+    using Pkg; Pkg.add(" BandedMatrices, BlockArrays, BlockBandedMatrices, Combinatorics, IntervalArithmetic, LaTeXStrings, LazyArrays, LinearAlgebra, Plots, Polynomials, PolynomialRoots, Serialization, SparseArrays")
 ```
 
 This implementation crucially relies on the package [IntervalArithmetic.jl](https://github.com/JuliaIntervals/IntervalArithmetic.jl) for rigorously controlling rounding errors.
